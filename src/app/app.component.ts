@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Dayjs } from "dayjs";
+import * as dayjs from "dayjs";
+import * as utc from "dayjs/plugin/utc";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'test';
 }

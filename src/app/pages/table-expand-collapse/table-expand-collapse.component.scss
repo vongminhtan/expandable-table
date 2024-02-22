@@ -1,0 +1,13 @@
+:host {
+  width: 100%;
+}
+
+
+.example-element-detail {
+    overflow: hidden;
+    display: flex;
+
+  &.level-1 {
+    background: red;
+  }
+}
